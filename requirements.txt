@@ -1,9 +1,20 @@
-certifi==2018.10.15
-chardet==3.0.4
-Django==2.1
-django-crispy-forms==1.7.2
-idna==2.7
-Pillow==5.2.0
-pytz==2018.5
-requests==2.19.1
-urllib3==1.23
+# Core
+Django>=4.2,<5         # Latest stable Django version that works with Python 3.14
+
+# Forms
+django-crispy-forms>=2.0   # Updated version compatible with modern Django
+crispy-bootstrap5>=0.7      # For Bootstrap 5 templates support
+
+# Images
+Pillow>=9.5                 # Latest Pillow that works with Python 3.14
+
+# Requests & HTTP
+requests>=2.30
+certifi>=2023.7
+chardet>=5.1
+idna>=3.4
+urllib3>=2.0
+
+# Timezone support
+pytz>=2023.3
+
